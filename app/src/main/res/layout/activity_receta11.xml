@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receta11">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="215dp"
+        android:layout_marginBottom="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/espaguetis" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="360dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="192dp"
+                android:layout_height="138dp"
+                android:layout_marginEnd="192dp"
+                android:layout_marginRight="192dp"
+                android:text="INGREDIENTES
+espinaca
+Calabacín
+aguacate
+zumo de limón
+piñones
+nuez
+Albahaca fresca
+"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="380dp"
+                android:layout_height="166dp"
+                android:text="PREPARACIÓN
+Lavar con abundante agua los calabacines.
+Hacer los espaguetis con un cortador Spirelli, un pelador en juliana o un rallador.
+Para cocer los espaguetis: o bien 1 minuto en agua hirviendo o en la sartén salteados con un poquito de grasa de coco. Reservar.
+Para la salsa batir el aguacate, las espinacas, los piñones, la albahaca y el jugo de limón con un poco de agua en la batidora o robot de cocina.
+Echa la pasta en un bol, añade la salsa, mezcla bien y echar nueces desmenuzadas por encima."
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

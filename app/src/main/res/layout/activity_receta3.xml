@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receta3">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="215dp"
+        android:layout_marginBottom="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/tostadas" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="360dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="192dp"
+                android:layout_height="138dp"
+                android:layout_marginEnd="192dp"
+                android:layout_marginRight="192dp"
+                android:text="INGREDIENTES
+aceite de oliva
+pimienta
+sal
+Yuca"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="380dp"
+                android:layout_height="166dp"
+                android:text="PREPARACIÓN
+Lavar la yuca con abundante agua.
+Cortar la yuca en rebanadas (retirando la hebra) y cocer en agua hirbiendo unos 15minutos.
+Precalentar el horno a 180ºC/356ºF.
+Sazonar los trozos de yuca con aceite de oliva, sal y pimienta y hornear unos 10 minutos."
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

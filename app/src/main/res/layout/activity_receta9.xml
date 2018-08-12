@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receta9">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="215dp"
+        android:layout_marginBottom="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/rollitos" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="360dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="192dp"
+                android:layout_height="138dp"
+                android:layout_marginEnd="192dp"
+                android:layout_marginRight="192dp"
+                android:text="INGREDIENTES
+berenjena pequeña
+queso de cabra
+pimienta
+sal
+Pimiento rojo
+Queso parmesano"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="380dp"
+                android:layout_height="166dp"
+                android:text="PREPARACIÓN
+Hornear los pimientos hasta que esté bien tiernos. Una vez fríos, pelar los pimientos.
+Cortar la berenjena a lo largo sin pelar, y sazonar (solo con sal) dejar reposar.
+Poner pequeñas porciones de queso de cabra y pimiento asado sobre las láminas de berenjena y enrollar.
+Una vez terminados los rollitos poner palillos en las puntas para que no se desenvuelvan al cocinarse. Rociar queso parmesano y una pizca de orégano por encima.
+Hornear 15 minutos."
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

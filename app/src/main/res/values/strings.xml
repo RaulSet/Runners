@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Runners</string>
+    <string name="title_activity_mapas">Map</string>
+    <string name="title_activity_aerobico">Map</string>
+    <string name="title_activity_ejercicio4">Ejercicio4</string>
+</resources>

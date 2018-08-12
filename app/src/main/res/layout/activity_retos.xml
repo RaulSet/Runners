@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/baca5c615b9e477626daf7f147cb10e9"
+    tools:context=".Retos">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginRight="104dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="8dp"
+        android:text="Retos menuales"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Enero
+Hacer 75 km"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="190dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="Febrero
+Completa el ejercicio 1 en 30 minutos"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Marzo
+Hacer 100 km"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="190dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="Abril
+Completa el ejercicio 2 en 30 minutos"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Mayo
+Hacer 125 km"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="190dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="Junio
+Completa el ejercicio 3 en 30 minutos"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Julio
+Hacer 150 km"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="190dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="Agosto
+Completa el ejercicio 4 en 30 minutos"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Septiembre
+Hacer 175 km"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="190dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="Octubre
+Completa el ejercicio 5 en 30 minutos"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Noviembre
+Hacer 200 km"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="190dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="Diciembre
+Completa el ejercicio 6 en 30 minutos"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

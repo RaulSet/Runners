@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receta6">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="215dp"
+        android:layout_marginBottom="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/tortitas" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="360dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="192dp"
+                android:layout_height="138dp"
+                android:layout_marginEnd="192dp"
+                android:layout_marginRight="192dp"
+                android:text="INGREDIENTES
+huevo
+aceite de oliva
+plátano
+dátil
+Canela
+Cacao"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="380dp"
+                android:layout_height="166dp"
+                android:text="PREPARACIÓN
+Batir los huevos.
+Añadir el plátano cortado a trocitos, los dátiles también cortados, el cacao y la canela. Pasar por la batidora hasta que no haya grumos. Debe quedar una masa consistente similar a un batido o un poco más espesa para que se haga hacer las tortitas en la sartén pero no demasiado porque debe poder extenderse bien.
+Echar unas gotitas de aceite de oliva en una sartén antiadherente (importante para que no se peguen). Cuando esté caliente, con un cucharón echar una buena cucharada de masa en el centro y moviendo la sartén la extendemos por toda la base. Esperamos unos segundos y cuando empiece a cuajarse por los bordes, nos ayudamos de una espátula para ir despegando los bordes y poco a poco toda la tortita hasta poder darle la vuelta. Cada cara necesita menos de un minuto. Una vez hecha la primera tortita no hace falta añadir aceite para el resto."
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

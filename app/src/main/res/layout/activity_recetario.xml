@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recetario">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="231dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="1dp"
+        android:text="Entra a la receta que mas te guste"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="221dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:srcCompat="@mipmap/piramide" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec1_BUT"
+                android:text="Tortilla de queso y espiancas" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec2_BUT"
+                android:text="Patata y Brocoli al vapor con huevo duro" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec3_BUT"
+                android:text="Tostadas de yuca" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec4_BUT"
+                android:text="Tortas de trigo sarraceno con aguacate y sesamo" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec5_BUT"
+                android:text="Ensalada de canonigos, zanahoria y pipas de calabaza con frijoles" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec6_BUT"
+                android:text="Tortitas de platano, datiles y cacao" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec7_BUT"
+                android:text="Ensalada de espinacas, manzanas, pasas y huevo" />
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec8_BUT"
+                android:text="Yogur de leche de coco con frutos rojos" />
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec9_BUT"
+                android:text="Rollitos de berenjena pimiento rojo y queso" />
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec10_BUT"
+                android:text="Crema de puerro" />
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec11_BUT"
+                android:text="Espaguetis de calabacin con salsa de aguacate y frutos secos" />
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Rec12_BUT"
+                android:text="Bol de platano y fresas con coco rallado con chocolate negro 85% troceado" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

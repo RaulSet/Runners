@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/baca5c615b9e477626daf7f147cb10e9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="186dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginRight="96dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Selecciona una opcion"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_marginBottom="204dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:onClick="CRR_But"
+                android:text="Carrera"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:onClick="PLA_But"
+                android:text="Planes"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="214dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:onClick="Ret_BUT"
+                android:text="Retos"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:onClick="Plani_BUT"
+                android:text="Planificacion"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="365dp" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BUTT_CALC"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:onClick="CRP_But"
+                android:text="Cuerpo"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:onClick="Diet_But"
+                android:text="Dieta"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:onClick="Hist_BUT"
+                android:text="historial"
+                tools:layout_editor_absoluteX="55dp"
+                tools:layout_editor_absoluteY="365dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:onClick="Ace_But"
+                android:text="Acerca De"
+                tools:layout_editor_absoluteX="278dp"
+                tools:layout_editor_absoluteY="270dp" />
+
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
